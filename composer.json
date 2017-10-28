@@ -1,0 +1,28 @@
+{
+    "name": "claudiosanches/wp-git-hooks",
+    "description": "WP GIT Hooks",
+    "type": "scripts",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Claudio Sanches",
+            "email": "contato@claudiosanches.com"
+        }
+    ],
+    "keywords": [
+        "WordPress"
+    ],
+    "require": {
+        "php": ">=7.0",
+        "wp-coding-standards/wpcs": "*",
+        "mustangostang/spyc": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ClaudioSanches\\WpGitHooks\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/read-wp-git-hooks-config"
+    ]
+}

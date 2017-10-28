@@ -1,0 +1,4 @@
+vendor/*
+composer.lock
+.wp-git-hooks.yml
+phpcs.ruleset.xml
