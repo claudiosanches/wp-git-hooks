@@ -14,9 +14,9 @@
  * @link     https://github.com/claudiosanches/wp-git-hooks
  */
 
-include_once __DIR__ . '/../autoload.php';
+include_once __DIR__. '/../../../autoload.php';
 
-$config = Spyc::YAMLLoad(__DIR__ . '/../.wp-git-hooks.yml');
+$config = Spyc::YAMLLoad(__DIR__ . '/../../../../.wp-git-hooks.yml');
 
 if (empty($config['pre_commit']['ignore'])) {
     exit;
