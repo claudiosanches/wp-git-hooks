@@ -14,15 +14,11 @@
     ],
     "require": {
         "php": ">=7.0",
-        "wp-coding-standards/wpcs": "*",
-        "mustangostang/spyc": "*"
+        "wp-coding-standards/wpcs": "*"
     },
     "autoload": {
         "psr-4": {
             "ClaudioSanches\\WpGitHooks\\": "src/"
         }
-    },
-    "bin": [
-        "bin/read-wp-git-hooks-config"
-    ]
+    }
 }
