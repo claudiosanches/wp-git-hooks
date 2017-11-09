@@ -46,7 +46,7 @@ class Hooks
      *
      * @return string
      */
-    protected static function getProjectDir(Event $event)
+    protected static function getProjectDir(Event $event): string
     {
         return $event->getComposer()->getConfig()->get('vendor-dir')
             . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR;
@@ -59,7 +59,7 @@ class Hooks
      *
      * @return bool
      */
-    public static function preHooks(Event $event)
+    public static function preHooks(Event $event): bool
     {
 
         $directory = self::getProjectDir($event);
@@ -94,7 +94,7 @@ class Hooks
      *
      * @return bool
      */
-    public static function postHooks(Event $event)
+    public static function postHooks(Event $event): bool
     {
         $directory = self::getProjectDir($event);
 
