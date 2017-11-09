@@ -25,31 +25,15 @@ Include the follow lines into the project's `composer.json`:
         "ClaudioSanches\\WpGitHooks\\Hooks::preHooks"
     ],
     "post-install-cmd": [
-        "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs",
         "ClaudioSanches\\WpGitHooks\\Hooks::postHooks"
     ],
     "post-update-cmd": [
-        "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs",
         "ClaudioSanches\\WpGitHooks\\Hooks::postHooks"
     ]
 }
 ```
 
 This will install all hooks and setup WPCS.
-
-### Configuration file
-
-Supports a configured file named `.wp-git-hooks.yml`.
-
-See an example of configuration file to make PHPCS/WPCS ignore files and paths:
-
-```yml
-pre_commit:
-  ignore:
-    - foo.php
-    - includes/bar.php
-    - test/
-```
 
 ### Sample phpcs.ruleset.xml for PHPCS/WPCS
 
@@ -59,6 +43,8 @@ A `phpcs.ruleset.xml` file is required in order to correct run your project's co
 <?xml version="1.0"?>
 <ruleset name="WordPress Coding Standards">
     <description>PHP_CodeSniffer ruleset for WordPress plugins and themes development.</description>
+
+    <config name="installed_paths" value="vendor/wp-coding-standards/wpcs" />
 
     <rule ref="WordPress"></rule>
 </ruleset>
