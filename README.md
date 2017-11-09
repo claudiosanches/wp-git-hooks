@@ -61,6 +61,7 @@ composer run-script post-update-cmd
 
 ## Release history
 
+- 2017-11-09 - 1.1.0 - Removed unnecessary configuration file.
 - 2017-10-30 - 1.0.1 - Fixed vendor path for `hooks/pre-commit` and `bin/read-wp-git-hooks-config`.
 - 2017-10-27 - 1.0.0 - Initial release.
 
