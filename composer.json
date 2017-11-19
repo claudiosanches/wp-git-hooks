@@ -26,13 +26,5 @@
         "psr-4": {
             "ClaudioSanches\\WpGitHooks\\": "src/"
         }
-    },
-    "scripts": {
-        "uninstall-wp-git-hooks": [
-            "WooCommerce\\GitHooks\\Hooks::preHooks"
-        ],
-        "install-wp-git-hooks": [
-            "WooCommerce\\GitHooks\\Hooks::postHooks"
-        ]
     }
 }

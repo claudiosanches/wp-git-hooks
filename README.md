@@ -63,7 +63,6 @@ composer run-script post-update-cmd
 - 2017-11-19 - 1.2.0
  - Included support for `PHPCompatibility`.
  - Automatically load all PHP_CodeSniffer plugins.
- - New `uninstall-wp-git-hooks` and `install-wp-git-hooks` scripts.
 - 2017-11-09 - 1.1.0
  - Removed unnecessary configuration file.
 - 2017-10-30 - 1.0.1
