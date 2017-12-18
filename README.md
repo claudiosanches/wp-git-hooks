@@ -60,6 +60,9 @@ composer run-script post-update-cmd
 
 ## Release history
 
+- 2017-12-18 - 1.3.0
+ - Requires `phpcs.xml` or `phpcs.xml.dist` by default.
+ - No longer accepts `phpcs.ruleset.xml`.
 - 2017-11-19 - 1.2.0
  - Included support for `PHPCompatibility`.
  - Automatically load all PHP_CodeSniffer plugins.
