@@ -61,23 +61,23 @@ composer run-script post-update-cmd
 ## Release history
 
 - 2018-08-01 - 1.3.3
- - Fixed Packagist.org builds.
+  - Fixed Packagist.org builds.
 - 2018-07-31 - 1.3.2
- - Full support for `phpcs.xml.dist`.
+  - Full support for `phpcs.xml.dist`.
 - 2017-12-18 - 1.3.1
- - Fixed support for `phpcs.xml.dist`.
+  - Fixed support for `phpcs.xml.dist`.
 - 2017-12-18 - 1.3.0
- - Requires `phpcs.xml` or `phpcs.xml.dist` by default.
- - No longer accepts `phpcs.xml`.
+  - Requires `phpcs.xml` or `phpcs.xml.dist` by default.
+  - No longer accepts `phpcs.xml`.
 - 2017-11-19 - 1.2.0
- - Included support for `PHPCompatibility`.
- - Automatically load all PHP_CodeSniffer plugins.
+  - Included support for `PHPCompatibility`.
+  - Automatically load all PHP_CodeSniffer plugins.
 - 2017-11-09 - 1.1.0
- - Removed unnecessary configuration file.
+  - Removed unnecessary configuration file.
 - 2017-10-30 - 1.0.1
- - Fixed vendor path for `hooks/pre-commit` and `bin/read-wp-git-hooks-config`.
+  - Fixed vendor path for `hooks/pre-commit` and `bin/read-wp-git-hooks-config`.
 - 2017-10-27 - 1.0.0
- - Initial release.
+  - Initial release.
 
 ## Sources
 
