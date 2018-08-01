@@ -2,7 +2,7 @@
     "name": "claudiosanches/wp-git-hooks",
     "description": "WP GIT Hooks",
     "type": "scripts",
-    "license": "GPLv3",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Claudio Sanches",
@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "wp-coding-standards/wpcs": "*",
+        "wp-coding-standards/wpcs": "^1.0",
         "wimg/php-compatibility": "^8.0",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3"
     },
