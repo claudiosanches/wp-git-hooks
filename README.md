@@ -60,6 +60,8 @@ composer run-script post-update-cmd
 
 ## Release history
 
+- 2018-07-31 - 1.3.2
+ - Full support for `phpcs.xml.dist`.
 - 2017-12-18 - 1.3.1
  - Fixed support for `phpcs.xml.dist`.
 - 2017-12-18 - 1.3.0
