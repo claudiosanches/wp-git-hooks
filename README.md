@@ -35,9 +35,9 @@ Include the follow lines into the project's `composer.json`:
 
 This will install all hooks and setup WPCS.
 
-### Sample phpcs.ruleset.xml for PHPCS/WPCS
+### Sample phpcs.xml for PHPCS/WPCS
 
-A `phpcs.ruleset.xml` file is required in order to correct run your project's coding standards.
+A `phpcs.xml` file is required in order to correct run your project's coding standards.
 
 ```xml
 <?xml version="1.0"?>
@@ -64,7 +64,7 @@ composer run-script post-update-cmd
  - Fixed support for `phpcs.xml.dist`.
 - 2017-12-18 - 1.3.0
  - Requires `phpcs.xml` or `phpcs.xml.dist` by default.
- - No longer accepts `phpcs.ruleset.xml`.
+ - No longer accepts `phpcs.xml`.
 - 2017-11-19 - 1.2.0
  - Included support for `PHPCompatibility`.
  - Automatically load all PHP_CodeSniffer plugins.
