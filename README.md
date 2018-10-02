@@ -9,7 +9,7 @@ My GIT hooks for WordPress plugins and themes development.
 ## Installation
 
 ```bash
-composer require claudiosanches/wp-git-hooks
+composer require --dev claudiosanches/wp-git-hooks
 ```
 
 ## Setup
