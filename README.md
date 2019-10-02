@@ -4,7 +4,7 @@ My GIT hooks for WordPress plugins and themes development.
 
 ## Hooks
 
-* `pre-commit` - Lint and check coding standards using [WPCS](https://packagist.org/packages/wp-coding-standards/wpcs).
+* `pre-commit` - Lint and check coding standards using [WPCS](https://packagist.org/packages/wp-coding-standards/wpcs). Copy by hand this file to `.git/hooks` and make it executable.
 
 ## Installation
 
